@@ -102,7 +102,8 @@ VARS = {
         ],
         "python_install_requires": [
             "celery==3.1.17",
-            "pyzmq==14.3.1"
+            "pyzmq==14.3.1",
+            "elasticsearch==1.0.0"
         ],
         "modules": {
                 "cloudify_rest_client": "git+git://github.com/cloudify-cosmo/cloudify-rest-client.git@3.3m3",
