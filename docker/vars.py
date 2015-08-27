@@ -110,7 +110,7 @@ VARS = {
                 "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@snapshots-master",
                 "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@master",
                 "cloudify_diamond_plugin": "git+git://github.com/cloudify-cosmo/cloudify-diamond-plugin.git@master",
-                "cloudify_agent": "git+git://github.com/cloudify-cosmo/cloudify-agent.git@master",
+                "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@snapshots-master",
                 "cloudify_manager": "-b snapshots-master https://github.com/codilime/cloudify-manager.git",
             },
         "workers_autoscale": "5,2",
@@ -130,7 +130,7 @@ VARS = {
             "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@snapshots-master",
             "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@master",
             "cloudify_diamond_plugin": "git+git://github.com/cloudify-cosmo/cloudify-diamond-plugin.git@master",
-            "cloudify_agent": "git+git://github.com/cloudify-cosmo/cloudify-agent.git@master",
+            "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@snapshots-master",
 
             "cloudify_amqp_influxdb": "git+git://github.com/cloudify-cosmo/cloudify-amqp-influxdb.git@master",
             "cloudify_dsl_parser": "git+git://github.com/cloudify-cosmo/cloudify-dsl-parser.git@master",
