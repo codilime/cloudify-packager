@@ -106,12 +106,12 @@ VARS = {
             "elasticsearch==1.0.0"
         ],
         "modules": {
-                "cloudify_rest_client": "git+git://github.com/codilime/cloudify-rest-client.git@m5-snapshots-master",
-                "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@m5-snapshots-master",
+                "cloudify_rest_client": "git+git://github.com/codilime/cloudify-rest-client.git@snapshots-master",
+                "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@snapshots-master",
                 "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@1.3m5",
                 "cloudify_diamond_plugin": "git+git://github.com/cloudify-cosmo/cloudify-diamond-plugin.git@1.3m5",
-                "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@m5-snapshots-master",
-                "cloudify_manager": "-b m5-snapshots-master https://github.com/codilime/cloudify-manager.git",
+                "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@snapshots-master",
+                "cloudify_manager": "-b snapshots-master https://github.com/codilime/cloudify-manager.git",
             },
         "workers_autoscale": "5,2",
         "ports": [],
@@ -126,16 +126,16 @@ VARS = {
         "modules": {
             # all these modules are only installed so we could eventually use plugin installation code
             # from cloudify-agent
-            "cloudify_rest_client": "git+git://github.com/codilime/cloudify-rest-client.git@m5-snapshots-master",
-            "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@m5-snapshots-master",
+            "cloudify_rest_client": "git+git://github.com/codilime/cloudify-rest-client.git@snapshots-master",
+            "cloudify_plugins_common": "git+git://github.com/codilime/cloudify-plugins-common.git@snapshots-master",
             "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@1.3m5",
             "cloudify_diamond_plugin": "git+git://github.com/cloudify-cosmo/cloudify-diamond-plugin.git@1.3m5",
-            "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@m5-snapshots-master",
+            "cloudify_agent": "git+git://github.com/codilime/cloudify-agent.git@snapshots-master",
 
             "cloudify_amqp_influxdb": "git+git://github.com/cloudify-cosmo/cloudify-amqp-influxdb.git@3.3m5",
             "cloudify_dsl_parser": "git+git://github.com/cloudify-cosmo/cloudify-dsl-parser.git@3.3m5",
             "flask_securest": "git+git://github.com/cloudify-cosmo/flask-securest.git@0.6",
-            "cloudify_manager": "-b m5-snapshots-master https://github.com/codilime/cloudify-manager.git",
+            "cloudify_manager": "-b snapshots-master https://github.com/codilime/cloudify-manager.git",
         },
         "ports": ["8100", "8101"],
         "persistence_path": ["/opt/manager/resources", "/var/log/cloudify"],
